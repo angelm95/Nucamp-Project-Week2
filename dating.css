@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+p {
+    margin:0;
+}
+legend {
+    background:purple;
+    border-radius: 10px;
+    color:white;
+    padding:12px;
+}
+fieldset {
+    background:lavender;
+    border:10px solid darkblue;
+    border-radius:20px;
+    margin-bottom:10px;
+    width:720px;
+    vertical-align:top;
+}
+div {
+    margin: 10px;
+}
+label {
+    display:inline-block;
+    text-align: right;
+}
+
+input[type="radio"]+label, input[type="checkbox"]+label {
+
+    width:auto;
+
+}
+
+.range-caption {
+    background:darkcyan;
+    color: white;
+    border-radius: 10px;
+    font-size:10px;
+    padding:6px;
+
+}
+div:hover {
+    color:blue;
+    transition:color 0.5s;
+}
+
+input[type="submit"]{
+    background:rgb(84, 189, 189);
+    border-radius:10px;
+    color:white;
+    font-size:20px;
+    padding:12px;
+}
